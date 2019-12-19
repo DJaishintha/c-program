@@ -1,0 +1,86 @@
+function:
+
+int main()
+{
+sayhello();
+return 0;
+}
+void sayhello()
+{
+printf("hello");
+}
+
+1).predefined function: already defined in header files.
+2).userdefined function: defined by users.
+
+function prototype or declaration
+
+function definition
+
+function calling
+
+function called
+
+parameter/argument/signature
+
+ex: to add two numbers.
+int add(int,int);//function prototype 
+int main()
+{
+int a,b,sum;
+printf("enter the value of a and b);
+scanf("%d%d",&a.&b);
+sum=add(a,b);//function calling
+printf("sum is %d",sum);
+return 0;
+}
+(int add(int a,int b)//called function
+{int s;
+s=a+b;
+return(s);
+})//function definition
+
+
+syntax:
+returntype functionname(parameter list)
+{
+function body
+}
+
+2).userdefined function:reusable multiple times....
+
+types of functions:
+
+1)no argument & no returntype
+
+void add();
+int main()
+{
+add();
+return 0;
+}
+void add()
+{
+int a=10,b=20,s;
+s=a+b;
+printf("addition=%d",s);
+}
+
+2).argument & no return values.
+
+int main()
+{
+int a=10,b=20;
+add(a,b);//actual parameter
+return 0;
+}
+void add(int a,int b)//formal parameter
+{
+int s;
+s=a+b;
+printf("add=%d",s);
+}
+
+3).no argument & return values.
+4).argument & return values.
+

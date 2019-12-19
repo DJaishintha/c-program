@@ -1,0 +1,31 @@
+Switch case in c programming:
+1)It is a discrete control statement.
+2)It works same as if-else statement.
+3)syntax:
+   switch(integer)
+    {
+      case constant:
+          stat 1;
+         break;
+      
+      case constant:
+          stat 2;
+          stat3;
+         break;
+       
+      
+      case constant:
+          stat 4;
+         break;
+
+      
+      default:
+         stat5;
+         stat6;
+    }
+4)
+
+
+
+
+
